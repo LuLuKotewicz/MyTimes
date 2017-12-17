@@ -61,12 +61,12 @@ nav a {
   padding-top: 30px;
 }
 
+
 .column.large {
   width: 630px;
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .column.medium {
@@ -74,7 +74,6 @@ nav a {
   border: 1px solid blue;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .column.small {
@@ -82,7 +81,6 @@ nav a {
   border: 1px solid yellow;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .main-story .main-feature-photo {
@@ -98,7 +96,6 @@ nav a {
 
 .feature-photo-1 {
   background-image: url("../images/img-story-1.png");
-  width: 300px;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -109,7 +106,6 @@ nav a {
 
 .feature-photo-2 {
   background-image: url("../images/img-story-2.png");
-  width: 630px;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -120,7 +116,6 @@ nav a {
 
 .feature-photo-3 {
   background-image: url("../images/img-story-3.png");
-  width: 630px;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -129,6 +124,16 @@ nav a {
   text-align: center;
 }
 
-.story {
-  border: 1px solid black;
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.content {
 }
