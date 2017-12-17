@@ -4,6 +4,13 @@ p {
   color: black:
 }
 
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -82,13 +89,16 @@ nav a {
 
 .main-story .main-feature-photo {
   background-image: url("../images/img-story-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  width: 630px;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  align-items: center;
+  padding-left: 25px;
 }
 
 .feature-photo-1 {
@@ -99,6 +109,8 @@ nav a {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .feature-photo-2 {
@@ -109,6 +121,8 @@ nav a {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .feature-photo-3 {
@@ -119,6 +133,8 @@ nav a {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .news-bite-photo {
@@ -130,6 +146,10 @@ nav a {
   justify-content: space-between;
 }
 
+.lead-article {
+  margin-bottom: 30px;
+}
+
 .article {
   display: flex;
   flex-direction: column;
@@ -137,6 +157,7 @@ nav a {
 }
 
 .content {
+  margin-bottom: 30px;
 }
 
 .news-bites {
